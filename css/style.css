@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    border: solid rgb(211, 211, 211) 1px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+header a:link, header a:active, header a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.banner-section {
+    width: 100%;
+}
+
+.img-principal {
+    width: 100%;
+    margin-top: -100px;
+}
+
+.artigo {
+    width: 70%;
+    margin: 5% 15%;
+}
+
+.ilustra-section {
+    width: 70%;
+    margin: 5% 15%;
+    font-size: 18px;
+    display: flex;
+    height: 300px;
+}
+
+.ilustra-section img {
+    width: 50%;
+}
+
+.ilustra-section a:link, .ilustra-section a:active, .ilustra-section a:visited {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+
+ol {
+    width: 50%;
+}
+
+ol li {
+    margin: 15px;
+}
+
+.about-body {
+    text-align: center;
+    margin-top: 15%;
+    font-size: 14px;
+}
+
+.about-body h2 {
+    font-size: 4em;
+}
+
+.about-body p:nth-child(even) {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.about-body img {
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.music-section {
+    margin-top: 15%;
+    font-size: 14px;
+}
+
+.contact-section {
+    font-size: 14px;
+    border-top: solid rgb(211, 211, 211) 1px;
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-section {
+    width: 48%;
+}
+
+.map-section {
+    width: 48%;
+}
+
+.input-section {
+    width: 100%;
+    border: solid rgb(211, 211, 211) 1px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.textarea-section {
+    resize: none;
+    width: 100%;
+    border: solid rgb(211, 211, 211) 1px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.send-button {
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border:solid red 1px;
+    text-decoration: none;
+}
